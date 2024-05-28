@@ -1,0 +1,40 @@
+/* Header.css */
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ 
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header div {
+    display: flex;
+    align-items: center;
+  }
+  
+  header span {
+    margin-right: 1rem;
+  }
+  
+  header button,
+  header a {
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  header button:hover,
+  header a:hover {
+    background-color: #0056b3;
+  }
+  
